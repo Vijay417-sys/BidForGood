@@ -12,7 +12,7 @@ public class Connector {
         Connection conn = null;
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            conn = DriverManager.getConnection(URL, USER, PASSWORD);
+            conn = DriverManager.getConnection(URL, vijay, PASSWORD);
             System.out.println("Database Connected!");
         } catch (Exception e) {
             System.out.println("Connection Failed!");
